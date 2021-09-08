@@ -99,7 +99,6 @@
     <hidden-api-whitelisted-app package="com.example.connmgr" />
     <hidden-api-whitelisted-app package="com.android.email" />
     <hidden-api-whitelisted-app package="com.cyanogenmod.filemanager" />
-    <hidden-api-whitelisted-app package="com.qualcomm.qti.presenceappSub2" />
     <hidden-api-whitelisted-app package="com.qualcomm.secureindicator" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.sysmonappExternal" />
     <hidden-api-whitelisted-app package="com.qualcomm.qti.biometrics.voiceprint.voiceprintdemo" />
@@ -114,5 +113,6 @@
     <!-- These are location components that need to freely run in the background -->
     <allow-in-power-save package="com.qualcomm.location" />
     <allow-in-power-save package="com.qualcomm.location.XT" />
+    <allow-in-power-save package="com.qualcomm.location.XT.setup" />
     <hidden-api-whitelisted-app package="com.qti.service.colorservice" />
 </config>
