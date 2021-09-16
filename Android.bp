@@ -172,7 +172,7 @@ android_app_import {
 	name: "IFAAService",
 	owner: "oneplus",
 	apk: "proprietary/system_ext/priv-app/IFAAService/IFAAService.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
